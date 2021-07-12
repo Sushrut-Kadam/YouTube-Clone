@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 60px;
+    padding: 15px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.header span{
+    vertical-align: middle;
+}
+
+.header-logo{
+    margin-left: 10px;
+}
+
+.header-logo img{
+    height: 25px;
+    width: 100px;
+}
+
+.header-search form{
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 90% 10%;
+}
+
+.header-search input{
+    margin: 0;
+}
+
+.header-search button{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.header-options{
+    margin-right: 10px;
+}
+
+.header-options span{
+    float: right;
+}
+
+.sign-in span{  
+    padding: 0 5px;
+}
+
+.content{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sidebar{
+    position: inherit;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 15%;
+    overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+
+.sidebar-items-wrapper{
+    width: 100%;
+}   
+
+.sidebar-item{
+    padding: 10px 25px;
+}
+
+.sidebar-item span{
+    margin-left: 10px;
+}   
+
+hr{
+    height: 1px;
+}
+
+.videos{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    height: 100%;
+    width: 80%;
+    padding: 15px 25px;
+}
+
+.video-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.video-wrapper{
+    height: 250px;
+    margin: 10px;
+}
+
+.video-thumbnail{
+    height: 100%;
+    width: 100%;   
+}
+
+.video-thumbnail img{
+    height: 100%;
+    width: 100%;
+}
+
+.video-info{
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.author{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+}
+
+.title a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.material-icons{
+    vertical-align: middle;
+}
+
+.label{
+    vertical-align: middle;
+}
